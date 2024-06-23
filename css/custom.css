@@ -235,7 +235,7 @@ nav {
 }
 
 .purple {
-  color: #f5f3f6 !important;
+  color: #a611f1 !important;
 }
 
 .numminers {
@@ -411,7 +411,7 @@ nav {
   margin: 0;
   font-weight: 600;
   /* color: #354D5F !important; */
-  color: #faf7fab7!important;
+  color: #d621d6b7!important;
 }
 
 .buy-contain-full {
@@ -458,7 +458,7 @@ h1 {
 
 p {
     /* color: #354D5F !important; */
-    color: #ffffffb7!important;
+    color: #ffffff!important;
 }
 
 h4 {
@@ -500,9 +500,9 @@ h4 {
 }
 
 .btn-hatch{
-  background-color: #fff;
+  background-color: #d31919;
   /* color: #000; */
-  color: #010101b7;
+  color: #ffffff;
   border: 1px solid #000;
   border-radius: 8px;
   width: 50%;
@@ -534,9 +534,9 @@ h4 {
 }
 
 .btn-sell{
-  background-color: #09bf25;
+  background-color: #051edc;
   /* color: #000; */
-  color: #000000b7;
+  color: #fafafa;
   border: 1px solid #000;
   border-radius: 8px;
   width: 50%;
@@ -695,7 +695,7 @@ h4 {
 .btn-default.active,
 .btn-default:active, 
 .open > .dropdown-toggle.btn-default {
-  color: #083061b7; /* #354D5F; */
+  color: #fdfeffb7; /* #354D5F; */
   background-color: transparent;
   border-color: transparent;
 }
@@ -784,7 +784,7 @@ h4 {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #b74ebbb7; /* #354D5F; */
+    color: #0d06e0b7; /* #354D5F; */
     opacity: .8;
 }
 
@@ -890,7 +890,7 @@ a:focus, a:hover {
 }
 
 .bg-teal{
-  background-color: #ffffff !important;
+  background-color: #efebeb !important;
 }
 .border-teal{
   /* border-color: #354D5F !important; */
