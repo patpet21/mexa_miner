@@ -1,5 +1,5 @@
-var minersAddr = '0xFCF906dafE4d23fd8CbE80B6a4473f33f4cDE104';
-var tokenAddr = '0x0ec822e4BB92e611A790Bc9fC501E0310AC7aFBa';
+var minersAddr = '0x884763eF2446E53640C39260a023804f4B9dB16A';
+var tokenAddr = '0xadFdEc09EA2cBD45a6BC660D4150724ADf7023Eb';
 var minersAbi =
 [
 	{
@@ -642,10 +642,10 @@ function userBalance(callback){
 
 function buyEggs(ref, trx, callback){
 	if(+trx > +usrBal) {
-		alert("You don't have " + trx + " BlockYork -$BKY- in your wallet");
+		alert("You don't have " + trx + " BusyMan (BSM) in your wallet");
 	}
 	else if(+trx > +spend) {
-		alert("Approve spending " + trx + " BlockYork -$BKY- first");
+		alert("Approve spending " + trx + " BusyMan (BSM) first");
 	} else {
 			minersContract.methods.buyEggs(ref, web3.utils.toWei(trx)).send({ from:currentAddr }).then(result => {
         callback();
