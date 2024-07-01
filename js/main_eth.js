@@ -102,13 +102,13 @@ function refreshData(){
     var baseNum = 0;
     contractBalance(function(result){
         rawStr = numberWithCommas(Number(result).toFixed(3));
-        balanceElem.textContent = stripDecimals(rawStr, 3) + ' BusyMan (BSM)';
+        balanceElem.textContent = stripDecimals(rawStr, 3) + ' BlockYork -BKY-';
     });
 
     var userBalanceElem = document.getElementById('user-balance');
     userBalance(function(result){
         rawStr = numberWithCommas(Number(result).toFixed(3));
-        userBalanceElem.textContent = stripDecimals(rawStr, 3) + ' BusyMan (BSM)';
+        userBalanceElem.textContent = stripDecimals(rawStr, 3) + ' BlockYork -BKY-';
     });
 
     lastHatch(currentAddr,function(lh){
